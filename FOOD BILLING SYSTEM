@@ -1,0 +1,119 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int  returTotalBill(void);
+	int totalBill=returTotalBill();
+	cout<<"your total Bill Amount is "<<totalBill<<endl;
+	cout<<"Thank you for your order"<<endl;
+}
+
+int returTotalBill(){
+	char c;
+	char item;
+	char vegItem;
+	int billAmount=0;
+	char selectAgain;
+	char nonvegItem;
+	cout<<"-------------------welcome to onlne food order-------------------"<<endl;
+	cout<<"-------------------plese follow below instructions-------------------"<<endl;
+	cout<<"step 1 : please press s to start your order"<<endl;
+	cout<<"step 2 : you can order both VEG and NONVEG item"<<endl;
+	cout<<"step 3 : please press A to select VEG item"<<endl;
+	cout<<"step 4 : please press B to select NONVEG item"<<endl;
+	cout<<"step 5 : you wil get your final BILL after your order"<<endl;
+	start:
+	cin>>c;
+	if(c=='s' || c=='S'){
+		items:
+		cout<<"plese select your choice"<<endl;
+		cout<<"(a)VEG ITEM                (b)NON VEG ITEM"<<endl;
+		cin>>item;
+		if(item=='a' || item=='A'){
+			vegItemList:
+			cout<<"plese select 1,2,3,4,5 as per your choice "<<endl;
+			cout<<"(1)  Paneer : price : Rs-250"<<endl;
+			cout<<"(2)  Burgar : price :Rs-50"<<endl;
+			cout<<"(3)  Pizza: price : Rs-100"<<endl;
+			cout<<"(4)  Chowmin: price : Rs-150"<<endl;
+			cout<<"(5)  Veg roll : price : Rs-100"<<endl;
+			cin>>vegItem;
+			if(vegItem=='1'){
+				billAmount=billAmount+250;	
+			}
+			else if(vegItem=='2'){
+				billAmount=billAmount+50;					
+			}
+			else if(vegItem=='3'){
+				billAmount=billAmount+100;					
+			}
+			else if(vegItem=='4'){
+				billAmount=billAmount+150;					
+			}
+			else if(vegItem=='5'){
+				billAmount=billAmount+100;					
+			}
+			else{
+				cout<<"you have enter wrong value , TRY AGAIN !"<<endl;
+				goto vegItemList;
+			}
+			cout<<"Do you want to add more items, y or n"<<endl;
+			cin>>selectAgain;
+			if(selectAgain=='y'){
+				goto items;
+			}
+			else{
+				return billAmount;
+			}
+		}
+		else if(item=='b' || item=='B'){
+		nonvegItemList:
+			cout<<"plese select 1,2,3,4,5 as per your choice "<<endl;
+			cout<<"(1)  Chikan Tikka : price : Rs-350"<<endl;
+			cout<<"(2)  FishCurry : price :Rs-100"<<endl;
+			cout<<"(3)  Chikan Biryaani: price : Rs-150"<<endl;
+			cout<<"(4)  Chikan Chowmin: price : Rs-200"<<endl;
+			cout<<"(5)  NON veg roll : price : Rs-200"<<endl;
+			cin>>nonvegItem;
+			if(nonvegItem=='1'){
+				billAmount=billAmount+350;	
+			}
+			else if(nonvegItem=='2'){
+				billAmount=billAmount+100;					
+			}
+			else if(nonvegItem=='3'){
+				billAmount=billAmount+150;					
+			}
+			else if(nonvegItem=='4'){
+				billAmount=billAmount+200;					
+			}
+			else if(nonvegItem=='5'){
+				billAmount=billAmount+200;					
+			}
+			else{
+				cout<<"you have enter wrong value , TRY AGAIN !"<<endl;
+				goto nonvegItemList;
+			}
+			cout<<"Do you want to add more items, y or n"<<endl;
+			cin>>selectAgain;
+			if(selectAgain=='y'){
+				goto items;
+			}
+			else{
+				return billAmount;
+			}
+		
+		}
+		else{
+			cout<<"you have enter wrong value , TRY AGAIN !"<<endl;
+			goto items;
+		
+		}
+	
+		}
+	else{
+		cout<<"you have enter wrong value , plese press s!"<<endl;
+		goto start;
+	}
+	return billAmount;
+}
