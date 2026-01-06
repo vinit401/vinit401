@@ -68,30 +68,39 @@ design, and creating clean user interfaces.
 - 📝 **Blog Management System**  
   A full-stack web application built using PHP, MySQL, HTML, CSS, and JavaScript.  
   Features include authentication, role-based access, category & post management,
-  search and filter functionality, and an admin dashboard.
+  search and filter functionality, and an admin dashboard.  
+  📂 Source Code: https://github.com/vinit401/blog-management-system  
 
 - 🛒 **E-commerce Product App (React + FakeStore API)**  
   A responsive React application fetching product data from an external API.
-  Includes product listing, detailed product view, and add-to-cart functionality.
+  Includes product listing, detailed product view, and add-to-cart functionality.  
+  🌐 Live Demo: https://ecommerceproductapi.netlify.app/ 
+  📂 Source Code: https://github.com/vinit401/ecommerce-react-app  
 
 - 🎌 **Anime & Manga Explorer**  
   A React-based application to browse anime and manga details such as episodes,
-  ratings, and synopsis using React Router.
+  ratings, and synopsis using React Router.  
+  🌐 Live Demo: https://silver-crisp-073adb.netlify.app/  
+  📂 Source Code: https://github.com/vinit401/anime-manga-explorer  
 
 - 💬 **Social Media UI (PropJapi)**  
   A modern social-media-style UI featuring navbar, sidebar, posts,
-  dark/light theme toggle, and interactive actions.
+  dark/light theme toggle, and interactive actions.  
+  📂 Source Code: https://github.com/vinit401/social-media-ui  
 
 - 🎓 **Internship Frontend Project**  
   A responsive frontend website developed during an internship.
-  Includes hero section, service cards, and mobile-friendly navigation.
+  Includes hero section, service cards, and mobile-friendly navigation.  
+  🌐 Live Demo: https://businesstagline5.netlify.app/
 
 - 📚 **React Basics Practice Repository**  
-  Small React programs and components to understand core React concepts.
+  Small React programs and components to understand core React concepts.  
+  📂 Source Code: https://github.com/vinit401/react-basics  
 
 - 🍽 **Food Ordering System (C++)**  
   A console-based C++ application simulating food ordering and billing
-  using object-oriented programming concepts.
+  using object-oriented programming concepts.  
+  📂 Source Code: https://github.com/vinit401/food-ordering-system
 
 ---
 
