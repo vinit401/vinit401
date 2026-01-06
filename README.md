@@ -1,6 +1,7 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=40&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Hi+There!+👋+I'm+Vinit;MCA+Student+%7C+Aspiring+Software+Developer" />
-</h1>
+<p align="left">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vinit401&theme=tokyonight" />
+</p>
+
 
 🎓 MCA Student  
 💻 Aspiring Software Developer | Web & Database Enthusiast  
@@ -24,15 +25,23 @@ design, and creating clean user interfaces.
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Overview
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=vinit401&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" />
+  <!-- Full profile activity -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vinit401&theme=tokyonight" />
 </p>
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinit401&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
+  <!-- Languages card (DIFFERENT IMAGE) -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vinit401&theme=tokyonight" />
 </p>
+
+<p align="left">
+  <!-- Stats card (DIFFERENT IMAGE) -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vinit401&theme=tokyonight" />
+</p>
+
 
 ---
 
