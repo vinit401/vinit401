@@ -121,8 +121,7 @@ design, and creating clean user interfaces.
 
 ---
 
-> *"Learning by building real projects."*
-
-<p align="left">
-  <img src="https://profile-counter.glitch.me/vinit401/count.svg" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=3000&color=36BCF7&center=true&vCenter=true&width=500&lines=Learning+by+building+real+projects." />
 </p>
+
