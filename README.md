@@ -22,13 +22,26 @@ design, and creating clean user interfaces.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Skills & Technologies
 
-![HTML](https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=css3&logoColor=blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)
-![PHP](https://img.shields.io/badge/PHP-black?style=for-the-badge&logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-black?style=for-the-badge&logo=mysql)
+<!-- 1️⃣ Main skill icons -->
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,php,mysql,python,git,github&theme=dark" />
+</p>
+
+<!-- 2️⃣ Data Science badges -->
+<p align="left">
+  <img src="https://img.shields.io/badge/NumPy-black?style=for-the-badge&logo=numpy" />
+  <img src="https://img.shields.io/badge/Pandas-black?style=for-the-badge&logo=pandas" />
+  <img src="https://img.shields.io/badge/Matplotlib-black?style=for-the-badge&logo=plotly" />
+</p>
+
+<!-- 3️⃣ Typing animation -->
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=36BCF7&width=600&lines=Frontend+Development;Backend+with+PHP+%26+MySQL;Python+for+Data+Analysis;NumPy+%7C+Pandas+%7C+Matplotlib;Git+%26+GitHub+Version+Control" />
+</p>
+
+
 
 ---
 
